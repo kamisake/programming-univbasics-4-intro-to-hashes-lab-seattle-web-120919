@@ -29,7 +29,7 @@ end
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
-  hash[key]
+
   # if the provided key is not present in the hash, add it and assign it to the value of 1
   hash[key] = 1
 
